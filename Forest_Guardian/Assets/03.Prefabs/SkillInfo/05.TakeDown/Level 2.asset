@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511637549f963bf48bd92a894117e397, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  skillName: "\uB0B4\uB824 \uCC0D\uAE30"
+  icon: {fileID: 0}
+  video: {fileID: 32900000, guid: a21b73fc35b83a8429eee16c52d6f5da, type: 3}
+  level: 2
+  description: "Level 2 \uB0B4\uB824\uCC0D\uAE30\n\uC810\uD504 \uD6C4 S"
+  upgradeEnergy:
+    tree: 120
+    water: 80
+    stone: 50
+    fire: 40
+    light: 20
+  coolTime: 1
+  sizeMultiple: 5
+  velocity: 20
+  damage: 200
+  range: 5
+  camSize: 7
+  sizeUpSound: {fileID: 8300000, guid: ecaca550541dc7649847498b9ab5b7f4, type: 3}
+  sizeUpEffect: {fileID: 6771759865663111761, guid: 8f2bad800b9ae384ebd3b37d61d01f93,
+    type: 3}
+  takeDownSound: {fileID: 8300000, guid: a5381fbdcb989d64d99b2f7de33d2b6a, type: 3}
+  takeDownEffect: {fileID: 1697119456319634, guid: 15e0431b56333174c9bb2436aaf7d450,
+    type: 3}
